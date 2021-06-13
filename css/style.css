@@ -1,0 +1,102 @@
+ header img {
+    width: 150px;
+    margin-top: 10px;
+  }
+  header{
+    position:fixed;
+    top:1px;
+    background-color: rgb(230, 247, 248);
+    width: 100%;
+    height: 70px;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  main{
+    margin-top: 70px;
+    height: 700px;
+
+  }
+  
+  #indexMain{
+    background-image: url("https://cdn.shopify.com/s/files/1/0017/4024/2996/products/salmon-potato-cookies-dog-treats-natural-cornish-pet-340362_1409x1409.jpg?v=1599135799");
+    background-color: #f1eaea;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(60%);
+    text-align: center;
+  }
+  #indexMain a{
+    color: black;
+    font-size: 30px;
+    position: relative;
+    top: 300px;
+    font-weight: bold;
+    filter: opacity(300%);
+    background-color: blanchedalmond;
+    font-family: Georgia, Times, "Times New Roman", serif;
+   
+}
+#indexMain a:hover{
+    color: blue;
+    font-size: 40px;
+    position: relative;
+    top: 300px;
+    font-weight: bold;
+    
+    background-color: rgb(255, 255, 255);
+    font-family: Georgia, Times, "Times New Roman", serif;
+   
+}
+#indexMain h1 span{
+    position: relative;
+    top: 100px;
+    padding: 10px;
+    font-size: 50px;
+    color: rgb(192, 86, 10);
+    background-color: cornsilk;
+    font-family: 'Mate SC', serif;
+}
+
+#indexMain h3 span{
+    font-family: 'Courier New', monospace;
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    line-height: 10px;
+}
+
+#sales{
+    text-align: center;
+
+}
+#sales h3{
+    color:chocolate;
+    font-family: 'Courier New', monospace;
+   margin-top: 50px;
+   font-size: 25px;
+
+}
+#sales ul {
+    font-size: 18px;
+    list-style:circle;
+    line-height: 2;
+   
+}
+#sales ul li {
+    list-style: circle;
+}
