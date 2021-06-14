@@ -81,22 +81,35 @@
 }
 
 #sales{
-    text-align: center;
-
+  background-image: url("https://y4n8r5d6.rocketcdn.me/wp-content/uploads/2021/01/20210210_161204-scaled-e1613141894194.jpg");
+ 
 }
 #sales h3{
     color:chocolate;
     font-family: 'Courier New', monospace;
    margin-top: 50px;
    font-size: 25px;
+   
+   font-weight: bold;
+   margin-bottom: 3px;
+   background-color: rgba(0, 0, 0, 0.788);
+   padding: 30px;
+   margin-right: 900px;
+   
 
 }
 #sales ul {
     font-size: 18px;
-    list-style:circle;
+    font-weight: bold;
+    list-style: inside;
     line-height: 2;
-   
+   margin-left: 70px;
+   background-color: rgba(148, 177, 231, 0.507);
+   margin-right: 900px;
+   padding: 20px;
+
 }
+
 #sales ul li {
-    list-style: circle;
+  list-style: inside;
 }
