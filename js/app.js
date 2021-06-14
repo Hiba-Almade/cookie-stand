@@ -192,7 +192,7 @@ let lima = {
        }
    },
    render : function(){
-       let divElement = document.createElement('div').className = "mystyle";
+       let divElement = document.createElement('div');
        salesElement.appendChild(divElement);
 
        let title = document.createElement('h3');
