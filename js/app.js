@@ -7,6 +7,7 @@ let salesElement=document.getElementById('sales');
 let hours =['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
 let allTotal=0;
 this.cookiesHours = [0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+let newCity=document.getElementById('newCity');
 
 // Table footer
 let table = document.createElement('table');
@@ -93,7 +94,6 @@ let tokyo = new Sales('Tokyo',3,24,1.2);
 let dubai = new Sales('Dubai',11,38,3.7);
 let paris = new Sales('Paris',20,38,2.3);
 let lima = new Sales('Lima',2,16,4.6);
-console.log(3);
 
 
 makeTablefooter();
@@ -108,3 +108,28 @@ paris.render();
 lima.cookiesNumber();
 lima.render();
 makeTableFooter();
+
+
+
+function addCity(event) {
+    event.preventDefault();
+    let location = event.target.name.value;
+    let min = event.target.min.value;
+    let max = event.target.max.value;
+    let avg = event.target.avg.value;
+  
+    let newLocation = new Sales(location,min,max,avg);
+
+    newLocation.cookiesNumber();
+    newLocation.render();
+
+    var rowCount = table.rows.length;
+    table.deleteRow(rowCount -2);
+     makeTableFooter();
+   
+   
+  }
+  
+  newCity.addEventListener('submit', addCity);
+
+
