@@ -57,8 +57,8 @@ h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #fff;
-font-family: 'Playfair Display', serif;
-    position: relative;
+    font-family: 'Lobster', cursive;
+        position: relative;
 	text-transform: uppercase;	
 	margin: 0;
 	font-weight: 400;}
@@ -90,21 +90,23 @@ main section:nth-child(4){
 
 h4{
   font-size: 40px;
-  font-family: 'Times New Roman', Times, serif;
-  color: rgb(2, 2, 116);
+  font-family: 'Judson', serif;
+   color: rgb(2, 2, 116);
 
 }
 h3{
   font-size: 30px;
   font-weight: bold;
   background-color: rgba(241, 241, 240, 0.473);
+  font-family: 'Halant', serif;
+
 
 }
 
 h2{
   font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
+  font-family: 'Judson', serif;
+    font-weight: bold;
 }
 ul{
   list-style:circle;
@@ -126,9 +128,16 @@ ul li{
 footer {
   display: flex;
     align-items: center;
+    height:90px;
     justify-content: center;
-    background: #222;
-    color: #fff;
+    background: rgb(128, 127, 127);
+    color: rgb(196, 192, 192);
+}
+
+footer div{
+  position: relative;
+  left: 400px;
+  color:rgb(180, 180, 180);
 }
 /* 
   #indexMain{
@@ -197,6 +206,7 @@ table {
   background-color: rgba(255, 255, 255, 0.733);
   position: absolute;
   top:700px;
+  font-family: 'Dancing Script', cursive;
   
 }
 
